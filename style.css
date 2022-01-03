@@ -9,13 +9,13 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
     width: 50%;
     padding: 5%;
-    color: white;
+    color: rgb(206, 76, 76);
 }
 .half-width img{
     width: 80%;
@@ -65,4 +65,12 @@ section{
     border-radius: 8px;
     color: white;
     font-weight: 700;
+}
+.flexible-container{
+    background-image: url(bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.experience-area{
+    background-color: black;
 }
